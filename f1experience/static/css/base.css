@@ -20,11 +20,110 @@ li {
 a {
   text-decoration: none;
 }
+p {
+  text-align: left;
+}
+.h1 {
+  font-size: 3em;
+  line-height: 2em;
+}
+.w100 {
+  font-weight: 100;
+}
+.w300 {
+  font-weight: 300;
+}
+.w400 {
+  font-weight: 400;
+}
+.w700 {
+  font-weight: 700;
+}
+.menu-container {
+  text-align: center;
+  width: 100%;
+}
+.menu-anchor {
+  color: #c9171e;
+}
+.menu-item {
+  font-family: "Roboto", sans-serif, Helvetica, Arial;
+  font-size: 1.5em;
+  padding: 0.4em;
+  width: 100%;
+}
+.menu-item:hover {
+  text-shadow: 0 0 0.5em #c9171e;
+}
+@media screen and (min-width: 48em) {
+  .menu-container {
+    float: left;
+    width: 35%;
+  }
+  .menu {
+    overflow: hidden;
+    text-align: center;
+  }
+  .menu-item {
+    float: left;
+    width: initial;
+  }
+}
 html,
 body {
   background: #fff;
   color: #000;
   font: 16px "Roboto", sans-serif, Helvetica, Arial;
+  height: 100%;
   line-height: 1.35em;
+  overflow-x: hidden;
   width: 100%;
+}
+.bmain {
+  background: #c9171e;
+  color: #fff;
+}
+.header {
+  background: #fff;
+  overflow: hidden;
+  padding: 1em;
+  width: 100%;
+}
+.logo-div {
+  text-align: center;
+  width: 100%;
+}
+.logo-img {
+  height: 3em;
+}
+.body-section {
+  height: 40em;
+  overflow: hidden;
+}
+.complete-div-section {
+  height: 20em;
+  padding: 10%;
+  text-align: center;
+  width: 100%;
+}
+.device-section {
+  background-image: url("/static/img/nexus5.png");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position-x: 50%;
+}
+@media screen and (min-width: 48em) {
+  .logo-div {
+    float: left;
+    text-align: left;
+    padding-left: 10%;
+    width: 65%;
+  }
+  .complete-div-section {
+    float: left;
+    height: 100%;
+    padding: 5%;
+    text-align: center;
+    width: 50%;
+  }
 }

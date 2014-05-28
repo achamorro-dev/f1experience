@@ -2,7 +2,48 @@ html,body
     background  $bodybackgroundcolor
     color       $bodycolor
     font        $bodyfontsize $bodyfontfamily
+    height      100%
     line-height $bodylineheight
+    overflow-x  hidden
     width       100%
+.bmain
+    background  $maincolor
+    color       $white
+/* HEADER */
+.header
+    background  $white
+    overflow    hidden
+    padding     1em
+    width       100%
+.logo-div
+    text-align  center
+    width       100%
+.logo-img
+    height      3em
+/* BODY */
+.body-section
+    height      40em
+    overflow    hidden
+.complete-div-section
+    height      20em
+    padding     10%
+    text-align  center
+    width       100%
+.device-section
+    background-image        url('/static/img/nexus5.png')
+    background-repeat       no-repeat
+    background-size         400px
+    background-position-x   50%
 
-
+@media screen and (min-width: $bp2)
+    .logo-div
+        float           left
+        text-align      left
+        padding-left    10%
+        width           65%
+    .complete-div-section
+        float       left
+        height      100%
+        padding     5%
+        text-align  center
+        width       50%

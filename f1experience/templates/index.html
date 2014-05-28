@@ -5,8 +5,39 @@
 <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}"/>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
 </head>
 <body>
+    <header class="header">
+        <div class="logo-div">
+            <img class="logo-img" src="{% static 'img/logo.png' %}" alt="F1 Experience"/>
+        </div>
+        <nav class="menu-container">
+            <ul class="menu">
+                <a class="menu-anchor" href="#"><li class="menu-item w400">OPCIÓN1</li></a>
+                <a class="menu-anchor" href="#"><li class="menu-item w400">OPCIÓN2</li></a>
+                <a class="menu-anchor" href="#"><li class="menu-item w400">OPCIÓN3</li></a>
+                <a class="menu-anchor" href="#"><li class="menu-item w400">OPCIÓN4</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section class="body-section bmain">
+        <div class="complete-div-section">
+            <h1 class="h1 w300"><i class="w700">F1</i> Experience</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco.</p>
+            <br/><br/>
+            <a href="#">
+              <img alt="Get it on Google Play" src="{% static 'img/gplay_button.png' %}" />
+            </a>
+            <a href="#">
+              <img alt="Download on the AppStore" src="{% static 'img/appstore_button.png' %}" />
+            </a>
+        </div>
+        <div class="complete-div-section device-section">
+        </div>
 
+    </section>
 </body>
 </html>
