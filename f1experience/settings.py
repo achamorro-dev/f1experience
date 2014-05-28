@@ -80,3 +80,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Additional directories which hold static files and templates
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "f1experience", "static"),
+]
+
+TEMPLATE_DIRS = [
+    os.path.join(BASE_DIR, "f1experience", "templates"),
+]
