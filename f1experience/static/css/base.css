@@ -24,7 +24,7 @@ p {
   text-align: left;
 }
 .h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   line-height: 2em;
 }
 .w100 {
@@ -38,6 +38,11 @@ p {
 }
 .w700 {
   font-weight: 700;
+}
+@media screen and (min-width: 48em) {
+  .h1 {
+    font-size: 3em;
+  }
 }
 .menu-container {
   text-align: center;
@@ -58,7 +63,7 @@ p {
 @media screen and (min-width: 48em) {
   .menu-container {
     float: left;
-    width: 35%;
+    width: 65%;
   }
   .menu {
     overflow: hidden;
@@ -67,6 +72,12 @@ p {
   .menu-item {
     float: left;
     width: initial;
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 68.75em) {
+  .menu-container {
+    width: 45%;
   }
 }
 html,
@@ -107,22 +118,32 @@ body {
   width: 100%;
 }
 .device-section {
-  background-image: url("/static/img/nexus5.png");
+  background-image: url("/static/img/nexus5_black.png");
   background-repeat: no-repeat;
   background-size: 400px;
   background-position-x: 50%;
+  background-position-y: 15%;
+}
+.store-button {
+  height: 2.5em;
+  margin-top: 2em;
 }
 @media screen and (min-width: 48em) {
   .logo-div {
     float: left;
     text-align: left;
     padding-left: 10%;
-    width: 65%;
+    width: 35%;
   }
   .complete-div-section {
     float: left;
     height: 100%;
     text-align: center;
     width: 50%;
+  }
+}
+@media screen and (min-width: 68.75em) {
+  .logo-div {
+    width: 55%;
   }
 }
