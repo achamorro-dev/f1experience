@@ -23,6 +23,9 @@ a {
 p {
   text-align: left;
 }
+i {
+  font-style: normal;
+}
 .h1 {
   font-size: 2.5em;
   line-height: 2em;
@@ -80,6 +83,13 @@ p {
     width: 45%;
   }
 }
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon/icomoon.eot?-4e3ti");
+  src: url("fonts/icomoon/icomoon.eot?#iefix-4e3ti") format('embedded-opentype'), url("fonts/icomoon/icomoon.woff?-4e3ti") format('woff'), url("fonts/icomoon/icomoon.ttf?-4e3ti") format('truetype'), url("fonts/icomoon/icomoon.svg?-4e3ti#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 html,
 body {
   background: #fff;
@@ -128,6 +138,47 @@ body {
   height: 2.5em;
   margin-top: 2em;
 }
+.footer-section {
+  background: #1a1a1a;
+  color: #fff;
+  overflow: hidden;
+}
+.icon-anchor {
+  color: #fff;
+  overflow: hidden;
+}
+.icon {
+  float: left;
+  font: 2em 'icomoon';
+  height: 2.5em;
+  padding: 0.7em 0;
+  text-align: center;
+  width: 33.33%;
+}
+.twitter-icon {
+  background-color: #4099ff;
+}
+.gplus-icon {
+  background-color: #d34836;
+}
+.github-icon {
+  background-color: #000;
+}
+.apple-icon {
+  background-color: #444;
+}
+.android-icon {
+  background-color: #a4c739;
+}
+.mail-icon {
+  background-color: #b00;
+}
+.icon-title {
+  font-size: 1.2em;
+  height: 4.16em;
+  padding: 1.2em 0;
+  text-align: center;
+}
 @media screen and (min-width: 48em) {
   .logo-div {
     float: left;
@@ -140,6 +191,9 @@ body {
     height: 100%;
     text-align: center;
     width: 50%;
+  }
+  .icon {
+    width: 16.66%;
   }
 }
 @media screen and (min-width: 68.75em) {
