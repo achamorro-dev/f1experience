@@ -100,10 +100,6 @@ body {
   overflow-x: hidden;
   width: 100%;
 }
-.bmain {
-  background: #c9171e;
-  color: #fff;
-}
 .header {
   background: #fff;
   overflow: hidden;
@@ -118,11 +114,15 @@ body {
   height: 3em;
 }
 .body-section {
-  height: 40em;
   overflow: hidden;
 }
+.bmain {
+  background: #c9171e;
+  color: #fff;
+  height: 41em;
+}
 .complete-div-section {
-  height: 20em;
+  height: 20.5em;
   padding: 5%;
   text-align: center;
   width: 100%;
@@ -132,11 +132,17 @@ body {
   background-repeat: no-repeat;
   background-size: 400px;
   background-position-x: 50%;
-  background-position-y: 15%;
+  background-position-y: 10%;
 }
 .store-button {
   height: 2.5em;
-  margin-top: 2em;
+  margin-top: 1em;
+  width: 7.1875em;
+}
+.screenshot-div {
+  float: left;
+  height: 17em;
+  width: 50%;
 }
 .footer-section {
   background: #1a1a1a;
